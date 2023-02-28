@@ -1,1 +1,70 @@
 <?xml version="1.0" encoding="UTF-8" ?>
+
+<Weapons> 
+    <Weapon id="1"> 
+        <Name>New Moon Bow</Name>
+        <Type>Bow</Type>
+        <Range>Long</Range>
+        <Rarity>[E]</Rarity>
+        <Power>5632</Power>
+        <Stats>
+            <Accuracy>174</Accuracy>
+            <Phys_Atk>799</Phys_Atk>
+            <Skill_Atk_Dmg_Boost>38.1%</Skill_Atk_Dmg_Boost>
+            <Additional_Stats>
+                <Crit_Atk_Dmg_Boost>7.2%</Crit_Atk_Dmg_Boost>
+                <Crit_Dmg_Reduction>1.8%</Crit_Dmg_Reduction>
+                <PvP_Dmg_Reduction>1.2%</PvP_Dmg_Reduction>
+                <Monster_Dmg_Reduction>0.7%</Monster_Dmg_Reduction>
+                <Enhance>
+                    <Tier_Level>1</Tier_Level>
+                    <Highest_Enchant>Ss</Highest_Enchant>
+                </Enhance>
+            </Additional_Stats>
+        </Stats>
+    </Weapon>
+    <Weapon id="2"> 
+        <Name>Moonfang Quiver</Name>
+        <Type>Bow</Type>
+        <Range>Long</Range>
+        <Rarity>[R]</Rarity>
+        <Power>1808</Power>
+        <Stats>
+            <Accuracy>64</Accuracy>
+            <Phys_Atk>237</Phys_Atk>
+            <Basic_Atk_Dmg_Boost>38.1%</Basic_Atk_Dmg_Boost>
+            <Additional_Stats>
+                <Crit_Dmg_Reduction>1.2%</Crit_Dmg_Reduction>
+                <Skill_Atk_Dmg_Boost>0.2%</Skill_Atk_Dmg_Boost>
+                <Debilitation_Success_Boost>9%</Debilitation_Success_Boost>
+                <Enhance>
+                    <Tier_Level>4</Tier_Level>
+                    <Highest_Enchant>S</Highest_Enchant>
+                </Enhance>
+            </Additional_Stats>
+        </Stats>
+    </Weapon>
+    <Weapon id="3"> 
+        <Name>Brave Dragon Halberd</Name>
+        <Type>Spear</Type>
+        <Range>Short</Range>
+        <Rarity>[E]</Rarity>
+        <Power>5134</Power>
+        <Stats>
+            <Accuracy>159</Accuracy>
+            <Phys_Atk>730</Phys_Atk>
+            <Spell_Atk>730</Spell_Atk>
+            <Skill_Atk_Dmg_Boost>34.8%</Skill_Atk_Dmg_Boost>
+            <Additional_Stats>
+                <Crit_Atk_Dmg_Boost>3.6%</Crit_Atk_Dmg_Boost>
+                <Bash_Atk_Dmg_Boost>2.4%</Bash_Atk_Dmg_Boost>
+                <Boss_Atk_Dmg_Boost>0.6%</Boss_Atk_Dmg_Boost>
+                <Stun_Success_Boost>2.2%</Stun_Success_Boost>
+                <Enhance>
+                    <Tier_Level>1</Tier_Level>
+                    <Highest_Enchant>A</Highest_Enchant>
+                </Enhance>
+            </Additional_Stats>
+        </Stats>
+    </Weapon>
+</Weapons>

@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8" ?>
+<?xml version="1.0" encoding="UTF-8"?>
 
 <Weapons> 
     <Weapon id="1"> 
@@ -66,5 +66,104 @@
                 </Enhance>
             </Additional_Stats>
         </Stats>
+    </Weapon>
+    <Weapon id="4">
+        <Name>Vandal</Name>
+        <Type>Rifle</Type>
+        <Range>Long</Range>
+        <Creds>2900</Creds>
+        <Primary_Fire>
+            <Fiire_Mode>Auto</Fiire_Mode>
+            <Fire_Rate>9.75 rds/sec</Fire_Rate>
+            <Run_Speed>5.4 m/sec</Run_Speed>
+            <Equip_Speed>1 sec</Equip_Speed>
+            <Reload_Speed>2.5 sec</Reload_Speed>
+            <Magazine>25</Magazine>
+            <Reserve>3 magazines</Reserve>
+            <Damage>
+                <Head>160</Head>
+                <Body>40</Body>
+                <Leg>34</Leg>
+                <Spread_Values>
+                    <First_Shot_Spread>
+                        <Primary_Fire>
+                            <Standing>0.25</Standing>
+                            <Crouched>0.21</Crouched>
+                        </Primary_Fire>
+                        <Alt_Fire>
+                            <Standing>0.157</Standing>
+                            <Crouched>0.13</Crouched>
+                        </Alt_Fire>
+                    </First_Shot_Spread>
+                    <Max_Spread>
+                        <Primary_Fire>
+                            <Standing>1</Standing>
+                            <Crouched>0.85</Crouched>
+                        </Primary_Fire>
+                        <Alt_Fire>
+                            <Standing>1.02</Standing>
+                            <Crouched>0.87</Crouched>
+                        </Alt_Fire>
+                    </Max_Spread>
+                    <Movement_Penalties>
+                        <Crouched>0.8</Crouched>
+                        <Walking>2</Walking>
+                        <Running>5</Running>
+                        <Airborne>10</Airborne>
+                    </Movement_Penalties>
+                </Spread_Values>
+            </Damage>
+            <Alt_Fire>
+                <Function>Aim down sights</Function>
+                <Zoom>1.25x</Zoom>
+                <Fire_Rate>90% (8.775 rds/sec)</Fire_Rate>
+                <Move_Speed>76% (4.104 m/sec)</Move_Speed>
+            </Alt_Fire>
+        </Primary_Fire>
+    </Weapon>
+    <Weapon id="5">
+        <Name>A Thousand Floating Dreams</Name>
+        <Rarity>5-Star</Rarity>
+        <Type>Catalyst</Type>
+        <Base_Stats>
+            <Base_Atk>42-542</Base_Atk>
+            <Stat_Type>Elemental Mastery</Stat_Type>
+            <Stat>58-265</Stat>
+        </Base_Stats> 
+        <Ascension>
+            <Materials>
+                <Material_Name>Oasis Garden's Truth<Material_Name>
+                <Location>Oasis Garden's Truth</Location>
+                <Quality>Gold</Quality>
+                <Enhancement_Material>
+                    <Drop>
+                        <Drop_Name>Crystalline Cyst Dust</Drop_Name>
+                        <Drop_From_Enemy>Radiant Prism</Drop_From_Enemy>
+                        <Alchemy> 
+                            <Material>Turbid Prism</Material>
+                            <Mora>125</Mora>
+                            <Crafting_Bench>
+                                <Location region="Mondstadt">
+                                    	<Place>Mondstadt (Fountain Plaza)</Place>
+                                        <Alternative_Place>Albedo's Campsite</Alternative_Place>
+                                </Location>
+                                <Location region="Liyue">
+                                    	<Place>Liyue Harbor (Chihu Rock)</Place>
+                                        <Alternative_Place>The Chasm: Underground Mines (Near Clitopho)</Alternative_Place>
+                                </Location>
+                                <Location region="Inazuma">
+                                    	<Place>Inazuma City</Place>
+                                </Location>
+                                <Location region="Sumeru">
+                                    	<Place>Sumeru City</Place>
+                                </Location>
+                            </Crafting_Bench>
+                        </Alchemy>
+                    </Drop>
+                    <Drop_Rarity>General</Drop_Rarity>
+                </Enhancement_Material>
+            </Materials>
+            <Material_Cost>55000 Mora</Material_Cost>
+        </Ascension>
     </Weapon>
 </Weapons>

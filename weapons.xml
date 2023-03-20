@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <Weapons> 
-    <Weapon id="1"> 
+    <Weapon id="1">
         <Name>New Moon Bow</Name>
         <Type>Bow</Type>
         <Range>Long</Range>
         <Rarity>[E]</Rarity>
-        <Power>5632</Power>
+        <!-- <Power>5632</Power> -->
         <Stats>
-            <Accuracy>174</Accuracy>
-            <Phys_Atk>799</Phys_Atk>
-            <Skill_Atk_Dmg_Boost>38.1%</Skill_Atk_Dmg_Boost>
-            <Additional_Stats>
+            <Stat id="1">174</Stat>
+            <Stat id="2">799</Stat>
+            <Stat id="3">38.1%</Stat>
+            <!-- <Additional_Stats>
                 <Crit_Atk_Dmg_Boost>7.2%</Crit_Atk_Dmg_Boost>
                 <Crit_Dmg_Reduction>1.8%</Crit_Dmg_Reduction>
                 <PvP_Dmg_Reduction>1.2%</PvP_Dmg_Reduction>
@@ -20,7 +20,7 @@
                     <Tier_Level>1</Tier_Level>
                     <Highest_Enchant>Ss</Highest_Enchant>
                 </Enhance>
-            </Additional_Stats>
+            </Additional_Stats> -->
         </Stats>
     </Weapon>
     <Weapon id="2"> 
@@ -28,12 +28,12 @@
         <Type>Bow</Type>
         <Range>Long</Range>
         <Rarity>[R]</Rarity>
-        <Power>1808</Power>
+        <!-- <Power>1808</Power> -->
         <Stats>
-            <Accuracy>64</Accuracy>
-            <Phys_Atk>237</Phys_Atk>
-            <Basic_Atk_Dmg_Boost>38.1%</Basic_Atk_Dmg_Boost>
-            <Additional_Stats>
+            <Stat id="1">64</Stat>
+            <Stat id="2">237</Stat>
+            <Stat id="3">38.1%</Stat>
+            <!-- <Additional_Stats>
                 <Crit_Dmg_Reduction>1.2%</Crit_Dmg_Reduction>
                 <Skill_Atk_Dmg_Boost>0.2%</Skill_Atk_Dmg_Boost>
                 <Debilitation_Success_Boost>9%</Debilitation_Success_Boost>
@@ -41,7 +41,7 @@
                     <Tier_Level>4</Tier_Level>
                     <Highest_Enchant>S</Highest_Enchant>
                 </Enhance>
-            </Additional_Stats>
+            </Additional_Stats> -->
         </Stats>
     </Weapon>
     <Weapon id="3"> 
@@ -49,13 +49,12 @@
         <Type>Spear</Type>
         <Range>Short</Range>
         <Rarity>[E]</Rarity>
-        <Power>5134</Power>
+        <!-- <Power>5134</Power> -->
         <Stats>
-            <Accuracy>159</Accuracy>
-            <Phys_Atk>730</Phys_Atk>
-            <Spell_Atk>730</Spell_Atk>
-            <Skill_Atk_Dmg_Boost>34.8%</Skill_Atk_Dmg_Boost>
-            <Additional_Stats>
+            <Stat id="1">159</Stat>
+            <Stat id="2">730</Stat>
+            <Stat id="3">34.8%</Stat>
+            <!-- <Additional_Stats>
                 <Crit_Atk_Dmg_Boost>3.6%</Crit_Atk_Dmg_Boost>
                 <Bash_Atk_Dmg_Boost>2.4%</Bash_Atk_Dmg_Boost>
                 <Boss_Atk_Dmg_Boost>0.6%</Boss_Atk_Dmg_Boost>
@@ -64,23 +63,28 @@
                     <Tier_Level>1</Tier_Level>
                     <Highest_Enchant>A</Highest_Enchant>
                 </Enhance>
-            </Additional_Stats>
+            </Additional_Stats> -->
         </Stats>
     </Weapon>
     <Weapon id="4">
-        <Name>Vandal</Name>
-        <Type>Rifle</Type>
+        <Name>Moonlight Spectral Torch</Name>
+        <Type>Catalyst</Type>
         <Range>Long</Range>
-        <Creds>2900</Creds>
-        <Primary_Fire>
+        <Rarity>[R]</Rarity>
+        <Stats>
+            <Stat id="1">122</Stat>
+            <Stat id="2">633</Stat>
+            <Stat id="3">26.3%</Stat>
+        </Stats>
+        <!-- <Primary_Fire>
             <Fiire_Mode>Auto</Fiire_Mode>
             <Fire_Rate>9.75 rds/sec</Fire_Rate>
             <Run_Speed>5.4 m/sec</Run_Speed>
             <Equip_Speed>1 sec</Equip_Speed>
             <Reload_Speed>2.5 sec</Reload_Speed>
             <Magazine>25</Magazine>
-            <Reserve>3 magazines</Reserve>
-            <Damage>
+            <Reserve>3 magazines</Reserve> -->
+            <!-- <Damage>
                 <Head>160</Head>
                 <Body>40</Body>
                 <Leg>34</Leg>
@@ -118,21 +122,27 @@
                 <Zoom>1.25x</Zoom>
                 <Fire_Rate>90% (8.775 rds/sec)</Fire_Rate>
                 <Move_Speed>76% (4.104 m/sec)</Move_Speed>
-            </Alt_Fire>
-        </Primary_Fire>
+            </Alt_Fire> -->
+        <!-- </Primary_Fire> -->
     </Weapon>
     <Weapon id="5">
-        <Name>A Thousand Floating Dreams</Name>
-        <Rarity>5-Star</Rarity>
-        <Type>Catalyst</Type>
-        <Base_Stats>
+        <Name>Seven Stars Sword</Name>
+        <Type>Sword</Type>
+        <Range>Long</Range>
+        <Rarity>[E]</Rarity>
+        <Stats>
+            <Stat id="1">189</Stat>
+            <Stat id="2">859</Stat>
+            <Stat id="3">41.4%</Stat>
+        </Stats>
+        <!-- <Base_Stats>
             <Base_Atk>42-542</Base_Atk>
-            <Stat_Type>Elemental Mastery</Stat_Type>
             <Stat>58-265</Stat>
-        </Base_Stats> 
-        <Ascension>
+            <Stat_Type>Elemental Mastery</Stat_Type>
+        </Base_Stats>  -->
+        <!-- <Ascension>
             <Materials>
-                <Material_Name>Oasis Garden's Truth<Material_Name>
+                <Material_Name>Oasis Garden's Truth</Material_Name>
                 <Location>Oasis Garden's Truth</Location>
                 <Quality>Gold</Quality>
                 <Enhancement_Material>
@@ -164,6 +174,6 @@
                 </Enhancement_Material>
             </Materials>
             <Material_Cost>55000 Mora</Material_Cost>
-        </Ascension>
+        </Ascension> -->
     </Weapon>
 </Weapons>
